@@ -1,0 +1,12 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {},
+
+  // Runs commands once after the container is created
+  "postCreateCommand": "npm install -g @anthropic-ai/claude-code @google/gemini-cli && curl -LsSf https://astral.sh/uv/install.sh | sh",
+
+  // Sets environment variables for all terminals
+  "remoteEnv": {
+    "PATH": "${containerEnv:PATH}:/home/vscode/.local/bin"
+  }
+}
