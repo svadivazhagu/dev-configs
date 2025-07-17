@@ -1,0 +1,16 @@
+# --- Customizations below ---
+#'/Users/surya/Library/Application Support/com.mitchellh.ghostty/config' on macOS
+
+# If you want to follow system appearance, uncomment the next line and comment out the previous
+theme = light:Cutiepro,dark:Chalkboard
+
+# Set SF Mono as the font (make sure it's installed via Fonts Book)
+font-family = "Berkeley Mono Variable"
+
+# Optional: Set a comfortable font size
+font-size = 14
+
+# Optional: Make sure background is fully opaque (1 = solid, 0 = transparent)
+background-opacity = 1
+
+# --- End of customizations ---
